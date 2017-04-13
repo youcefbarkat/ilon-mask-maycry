@@ -1,3 +1,13 @@
+var coolstuff = function(){
+    var csss = document.getElementById('cool').className;
+    if (csss == 'cool') {
+        document.getElementById('cool').className = 'cool red';
+
+    }else{
+        document.getElementById('cool').className = 'cool';
+
+    }
+}
 var saymyname = function (name) {
     alert('Your name is: '+name);
 }

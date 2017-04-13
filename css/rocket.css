@@ -1,0 +1,130 @@
+.left{
+position: fixed;
+background-color: aquamarine;
+width: 50%;
+height: 100%;
+top: 0;
+left: 0;
+}
+.right{
+position: fixed;
+background-color: aliceblue;
+width: 50%;
+height: 100%;
+top: 0;
+right: 0;
+}
+.rocket{
+	position: absolute;
+	left: 50%;
+	bottom: -26px;
+	width: 200px;
+	height: 272px;
+	margin-left: -71.5px;
+	background: url('../img/s1.png') no-repeat 0;
+	transition: bottom 10000ms;
+
+}
+body.bodys2 .rocket{
+	background-image: url('../img/s2.gif');
+
+}
+body.bodys3 .rocket,
+body.bodys4 .rocket{
+background-image: url('../img/s2.gif');
+}
+body.bodys5 .rocket{
+background-image: url('../img/boomm.png');
+width: 200px;
+height: 200px;
+margin-left: -100px;
+}
+
+
+
+body.bodys1 .rocket{
+	transition: none;
+}
+body.bodys3 .rocket,
+body.bodys4 .rocket{
+	bottom: 1000px;
+}
+.ground{
+	background: url('../img/ground.png') repeat center center;
+	position: absolute;
+	bottom: 0;
+	left:0;
+	width: 100%;
+	height: 20px;
+      
+}
+a{
+
+} 
+a.button{
+
+}
+
+.state1,
+.state2,
+.state3,
+.state4,
+.state5{
+	display: none;
+}
+
+
+body.bodys1 .state1{display: block;}
+body.bodys2 .state2{display: block;}
+body.bodys3 .state3{display: block;}
+body.bodys4 .state4{display: block;}
+body.bodys5 .state5{display: block;}
+
+.rock{
+	position: absolute;
+	bottom: 43px;
+	left: 202px;
+	background: url('../img/rock.png') no-repeat 0 0;
+    width: 400px;
+    height: 300px;
+    margin-left:-229px;
+	display: none;
+}
+.fuck{
+position: absolute;
+	bottom: 43px;
+	left: 202px;
+	background: url('../img/fuck.png') no-repeat 0 0;
+    width: 400px;
+    height: 300px;
+    margin-left:-213px;
+    display: none;
+}
+.rock.show{
+	display: block;
+}
+.fuck.show{
+	display:block;
+}
+
+.rock
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
